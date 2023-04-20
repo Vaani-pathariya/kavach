@@ -3,7 +3,8 @@ import React from 'react'
 export default function
     () {
     return (
-        <div>
+        <div className='container check-bar-container'>
+            <h2>Check URL and Website in real-time</h2>
             <form action="" className='container check-bar'>
                 <div class="input-group mb-3">
                     <input type="text" class="form-control" placeholder="Enter a URL: www.example.com" aria-label="Recipient's username" aria-describedby="basic-addon2" required='required' />

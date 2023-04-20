@@ -1,12 +1,73 @@
+/* Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Utility Classes */
+
+.flex {
+    display: flex;
+}
+
+/* Check-bar */
+
+.check-bar-container {
+    margin-top: 150px;
+}
+
+.check-bar-container h2 {
+    text-align: center;
+}
+
 .check-bar {
-    margin-top: 60px;
+    margin-top: 30px;
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    justify-content: space-around;
 }
 
 .check-btn {
     width: 200px;
+}
 
+/* CTA Section */
+
+.cta-container {
+    background-color: #f3f5f7;
+    padding: 40px;
+    margin-top: 350px;
+}
+
+.cta-main-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cta-image{
+    width: 30%;
+}
+
+/* Feature section */
+.feature-container{
+    margin-top: 350px;   
+}
+
+.feature-main-content{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.feature-image{
+    width: 80%;
 }
