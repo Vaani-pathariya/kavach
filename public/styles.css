@@ -7,13 +7,22 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    
 }
+
+
 
 /* Utility Classes */
 
 .flex {
     display: flex;
 }
+
+.primary-btn{
+
+}
+
+
 
 /* Check-bar */
 
@@ -43,7 +52,7 @@
 .cta-container {
     background-color: #f3f5f7;
     padding: 40px;
-    margin-top: 350px;
+    margin-top: 150px;
 }
 
 .cta-main-content {
@@ -58,7 +67,7 @@
 
 /* Feature section */
 .feature-container{
-    margin-top: 350px;   
+    margin-block: 150px;   
 }
 
 .feature-main-content{
@@ -69,5 +78,5 @@
 }
 
 .feature-image{
-    width: 80%;
+    width: 50%;
 }
