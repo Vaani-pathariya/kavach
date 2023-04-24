@@ -10,6 +10,10 @@
     
 }
 
+body{
+    background-color: #2a1e59;
+}
+
 
 
 /* Utility Classes */
@@ -18,11 +22,15 @@
     display: flex;
 }
 
-.primary-btn{
 
+/* Navbar */
+.navigation-bar{
+    /* opacity: 0; */
+    color: #0000ee;
 }
 
-
+.navbar-content{
+}
 
 /* Check-bar */
 

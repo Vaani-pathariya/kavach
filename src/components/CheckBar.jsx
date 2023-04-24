@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import "../CSS/checkBar.css"
 
 function CheckBar() {
     const [data, setData] = useState([]);
@@ -33,7 +34,7 @@ function CheckBar() {
 
     return (
         <div className='container check-bar-container'>
-            <h2>Check URL and Website in real-time</h2>
+            <h2 className='check-bar-heading'>Check URL and Website in real-time</h2>
             <form action="" className='container check-bar'>
                 <div className="input-group mb-3">
                     <input type="text" class="form-control" placeholder="Enter a URL: www.example.com" value={url} onChange={handleChange} required='required' />

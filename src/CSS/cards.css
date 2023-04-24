@@ -1,0 +1,25 @@
+.card-container{
+    color: azure;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin: 50px;
+    margin-top: 150px;
+    
+}
+
+.first_card{
+
+    background-color: #49378f;
+    border-radius: 18px;
+    padding: 25px;
+    width: 25%;
+}
+
+.head_firstcard{
+    font-size: 2rem;
+}
+
+.content_firstcard{
+
+}
