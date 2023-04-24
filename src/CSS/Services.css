@@ -1,0 +1,22 @@
+.services{
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+.head_services{
+    font-size: 35px;
+
+}
+.name_services{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 20px;
+    margin-block: 20px;
+}
+.service{
+    background-color: #49378f;
+    border-radius: 18px;
+    padding: 25px;
+    width: 25%;
+}
