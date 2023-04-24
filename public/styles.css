@@ -7,15 +7,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    color: white;
     
 }
 
 body{
     background-color: #2a1e59;
 }
-
-
-
 /* Utility Classes */
 
 .flex {
@@ -88,3 +86,6 @@ body{
 .feature-image{
     width: 50%;
 }
+
+
+

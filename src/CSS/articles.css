@@ -1,0 +1,45 @@
+.main-articles-container {
+    /* display: flex; */
+    margin: 150px;
+    color: white;
+
+}
+
+.main-articles-container h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article-cont{
+    gap: 20px;
+}
+
+.article {
+    width: 100%;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: #49378f;
+    transition: 0.3s ease-in-out;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.article:hover {
+    background-color: #41317f;
+
+}
+
+
+
+/* Resposive */
+@media screen and ( max-width: 479px) {
+    .article-cont{
+        flex-direction: column;
+    }
+
+}
