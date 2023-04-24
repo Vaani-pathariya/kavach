@@ -33,7 +33,9 @@ function CheckBar() {
     }
 
     return (
-        <div className='container check-bar-container'>
+
+        <div className=' check-bar-container'>
+            <div className="main-container">
             <h2 className='check-bar-heading'>Check URL and Website in real-time</h2>
             <form action="" className='container check-bar'>
                 <div className="input-group mb-3">
@@ -45,6 +47,7 @@ function CheckBar() {
             { data[0] != undefined ?
              (<h1> Your URL is : {data}</h1>) : ""
             }
+            </div>
         </div>
     )
 }

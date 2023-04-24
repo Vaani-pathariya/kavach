@@ -8,6 +8,7 @@ import HeroSection from './HeroSection'
 import CardSection from './CardSection'
 import Servies from './Servies'
 import Articles from './Articles'
+import MajorServices from './MajorServices'
 
 export default function App() {
     return (
@@ -18,6 +19,7 @@ export default function App() {
             <CardSection/>
             <Servies/>
             <CTA/>
+            <MajorServices/>
             <Articles/>
             <Feature/>
             <Footer/>

@@ -14,7 +14,7 @@ a {
     text-decoration: none;
 }
 
-.article-cont{
+.article-cont {
     gap: 20px;
 }
 
@@ -34,12 +34,9 @@ a {
 
 }
 
-
-
 /* Resposive */
-@media screen and ( max-width: 479px) {
-    .article-cont{
+@media screen and (max-width: 479px) {
+    .article-cont {
         flex-direction: column;
     }
-
 }

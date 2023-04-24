@@ -8,11 +8,26 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     color: white;
+    /* overflow-x: hidden; */
     
 }
 
 body{
-    background-color: #2a1e59;
+    /* background-color: #2a1e59; */
+    background: linear-gradient(45deg,#8C27EB,#6b0036,#aa00ff,#9b2995);
+    background-size: 300% 300%;
+    animation: color 2s ease-in-out infinite;
+}
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
 }
 /* Utility Classes */
 
@@ -33,7 +48,7 @@ body{
 /* Check-bar */
 
 .check-bar-container {
-    margin-top: 150px;
+    /* margin-top: 150px; */
 }
 
 .check-bar-container h2 {
@@ -56,9 +71,9 @@ body{
 /* CTA Section */
 
 .cta-container {
-    background-color: #f3f5f7;
+    /* background-color: #f3f5f7; */
     padding: 40px;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 .cta-main-content {

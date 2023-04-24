@@ -2,10 +2,14 @@
     color: azure;
     display: flex;
     justify-content: space-evenly;
-    gap: 10px;
-    margin: 50px;
-    margin-top: 150px;
+    margin-top: 50px;
+
     
+}
+
+.card-header{
+    margin-top: 360px;
+    text-align: center;
 }
 
 .first_card{
@@ -21,5 +25,9 @@
 }
 
 .content_firstcard{
+    margin-top: 20px;
+    text-align: justify;
 
 }
+
+
